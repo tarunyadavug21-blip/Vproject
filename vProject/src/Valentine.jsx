@@ -90,7 +90,7 @@ const ValentinePage = () => {
           />
           
           <h1 className="text-3xl md:text-5xl font-bold text-pink-600 mb-8">
-            Will you be my Valentine?
+            Will you be my Valentine Nikita?
           </h1>
 
           <div className="flex flex-col md:flex-row items-center justify-center gap-4">
@@ -98,7 +98,7 @@ const ValentinePage = () => {
             {/* YES BUTTON */}
             <button
               onClick={() => setAccepted(true)}
-              className={`bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-8 rounded-full transition-all duration-300 shadow-lg`}
+              className={`bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-8 rounded-full transition-all duration-300 shadow-lg mr-10`}
               style={
                 useGrowingTemplate 
                   ? { fontSize: `${noCount * 20 + 16}px` } // Grow logic
